@@ -12,6 +12,8 @@ import os
 
 app = FastAPI()
 
+print("Loading SAM model...")
+
 # Load SAM model
 model = SAM("sam2_l.pt")
 
